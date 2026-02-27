@@ -15,7 +15,7 @@ Script for discovering and uploading any files on a Windows host to Dropbox over
 
 ---
 
-## 📦 Installation
+## Installation
 
 Clone and prepare your environment:
 
@@ -23,6 +23,14 @@ Clone and prepare your environment:
 git clone https://github.com/alexoslabs2/data-exfiltration-proxy.git
 cd data-exfiltration-proxy
 pip install dropbox requests[socks]
+```
+
+### Configuration
+
+```bash
+ACCESS_TOKEN = 'YOUR_DROPBOX_ACCESS_TOKEN'
+PROXY_URL = 'http://[Proxy IP]:3128'
+DROPBOX_FOLDER = '/Images'
 ```
 
 Tip: Create a Windows .exe
