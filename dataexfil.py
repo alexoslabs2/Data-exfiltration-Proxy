@@ -4,7 +4,7 @@ import requests
 
 # Configuration
 ACCESS_TOKEN = 'YOUR_DROPBOX_ACCESS_TOKEN'
-PROXY_URL = 'http://user:password@proxy.example.com:8080'  # Update with your proxy credentials and URL
+PROXY_URL = 'http://proxy_ip:3128'  # Update with your proxy credentials and URL
 DROPBOX_FOLDER = '/Images'  # Dropbox folder where images will be saved
 
 # Supported image extensions
